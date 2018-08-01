@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jet.test">
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--注：如果您的App需要上传到google play store，您需要将READ_PHONE_STATE权限屏蔽掉或者移除，否则可能会被下架。-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <!--保持CPU 运转，屏幕和键盘灯有可能是关闭的,用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--允许读取手机状态 用于创建BmobInstallation-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+    <application
+        android:name=".application.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <!--广告-->
+        <activity android:name=".ui.SplashActivity"
+                   android:theme="@style/NoActivityFullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--首页-->
+        <activity android:name=".MainActivity"
+            >
+
+            </activity>
+        <!--引导-->
+        <activity android:name=".ui.GuideActivity"
+            android:theme="@style/NoActivityFullscreen">
+        </activity>
+        <!--手机查询-->
+        <activity android:name=".adapter.CourierActivity"
+            android:label="快递物流查询">
+
+        </activity>
+        <!--网页浏览-->
+        <activity android:name=".ui.WebActivity">
+
+        </activity>
+        <!--发布商品-->
+
+        <!--查看商品-->
+
+
+        <activity android:name=".ui.WebActivity1">
+
+        </activity>
+        <!--介绍-->
+        <activity android:name=".ui.JieshaoActivity"
+            android:label="宁波财经学院">
+
+        </activity>
+        <activity android:name=".ui.WebActivity2"
+            android:label="地图">
+
+        </activity>
+        <activity android:name=".ui.ForgetPasswordActivity"
+            android:label="忘记密码">
+
+        </activity>
+        <activity android:name=".ui.RegisteredActivity"
+            android:label="注册用户">
+
+        </activity>
+        <!--登录-->
+        <activity android:name=".ui.LoginActivity"
+            android:theme="@style/NoActivityFullscreen">
+
+        </activity>
+    </application>
+
+</manifest>

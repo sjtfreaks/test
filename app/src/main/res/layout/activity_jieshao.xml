@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/userlogo"/>
+        <TextView
+        android:padding="10dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      2018年1月20日，教育部发展规划司正式公布了2017年度申报设置列入专家考察高等学校名单，共有46所高校入选，其中宁波大红鹰学院改为宁波财经学院。2018年5月31日，教育部发展规划司发布《关于2018年拟批准设置高等学校的公示》，其中包括宁波财经学院 （建校基础为宁波大红鹰学院）。"
+        android:textColor="@color/colorBlack"
+        android:textSize="15dp" />
+        <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="15dp"
+        android:text="      学校占地面积约1700亩，分为本部校区（位于宁波市区学院路）和杭州湾校区（位于宁波市杭州湾新区）；现有金融贸易学院、财富管理学院、工商管理学院、机械与电气工程学院、信息工程学院、人文学院、艺术与传媒学院、基础学院、马克思主义学院、成人继续教育学院、国际教育学院、公共文体部等教学单位，32个本科专业；在校全日制本科生18000余人。"/>
+        <ImageView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/map"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="15dp"
+            android:text="      “十三五”期间，学校将坚持“致良知、育实才、立善业”的办学理念，坚守“成为中小企业发展的首选大学”的办学理想，秉承“自信、专注”校训，围绕应用型示范建设目标，深入推进体制机制创新和教育教学改革，努力建设成为高素质应用型人才的培养基地、解决区域中小企业工程技术问题的研究基地、区域经济增长和社会进步的服务基地，力争早日建成国内领先、有改革创新示范价值、特色鲜明的民办大学。"/>
+    </LinearLayout>
+</ScrollView>

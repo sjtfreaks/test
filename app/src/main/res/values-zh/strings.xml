@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">   宁财快报</string>
+    <string name="fragment_one">新闻</string>
+    <string name="fragment_two">趣事</string>
+    <string name="fragment_three">美图</string>
+    <string name="fragment_four">用户</string>
+</resources>

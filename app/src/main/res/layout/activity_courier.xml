@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <EditText
+        android:maxLines="1"
+        android:id="@+id/et_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入快递公司"
+        />
+    <EditText
+        android:maxLines="1"
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入快递单号"
+        />
+<Button
+    android:id="@+id/bt_phone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="查询"
+    android:textSize="20dp"
+    android:textColor="@color/colorWhite"
+    android:background="@drawable/button_bg"
+    />
+
+    <ListView
+        android:id="@+id/list_phone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></ListView>
+</LinearLayout>
